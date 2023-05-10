@@ -1,0 +1,21 @@
+{
+  "name": "filmiklubi-animation",
+  "private": true,
+  "version": "0.0.0",
+  "scripts": {
+    "serve": "vite",
+    "build": "tsc && vite build"
+  },
+  "dependencies": {
+    "@motion-canvas/2d": "^3.6.2",
+    "@motion-canvas/core": "^3.6.1",
+    "matter-js": "^0.19.0"
+  },
+  "devDependencies": {
+    "@motion-canvas/ui": "^3.6.1",
+    "@motion-canvas/vite-plugin": "^3.4.0",
+    "@types/matter-js": "^0.18.3",
+    "typescript": "^4.9.5",
+    "vite": "^4.1.4"
+  }
+}
